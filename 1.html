@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Простой Чат</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #chat { border: 1px solid #ccc; padding: 10px; width: 300px; height: 400px; overflow-y: scroll; }
+        .message { margin-bottom: 10px; }
+        .user1 { color: blue; }
+        .user2 { color: green; }
+        #messageInput { width: 80%; }
+        #sendButton { width: 18%; }
+    </style>
+</head>
+<body>
+    <h2>Простой Чат</h2>
+    <div id="chat"></div>
+    <input type="text" id="messageInput" placeholder="Введите сообщение...">
+    <button id="sendButton">Отправить</button>
+    <script src="chat.js"></script>
+</body>
+</html>
