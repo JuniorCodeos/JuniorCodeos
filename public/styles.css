@@ -1,0 +1,13 @@
+body { font-family: Arial, sans-serif; background-color: #f4f4f4; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; }
+#chat-container { display: none; flex-direction: column; width: 400px; background: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); overflow: hidden; }
+#header { background: #007bff; color: white; padding: 10px; text-align: center; }
+#chat { padding: 10px; height: 300px; overflow-y: auto; flex-grow: 1; }
+.message { margin-bottom: 10px; padding: 5px; border-radius: 5px; }
+.user1 { background: #007bff; color: white; text-align: right; }
+.user2 { background: #e2e2e2; color: black; text-align: left; }
+#input-container { display: flex; padding: 10px; border-top: 1px solid #ddd; }
+#messageInput { flex-grow: 1; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin-right: 10px; }
+#sendButton { padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+#login-container { display: flex; flex-direction: column; width: 300px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+#login-container input { margin-bottom: 10px; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+#loginButton { padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
